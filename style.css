@@ -1,0 +1,66 @@
+html {
+  scroll-behavior: smooth;
+} 
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #bcd4e6;
+}
+
+.card {
+  width: 1000px;
+  height: 1500px;
+  border-radius: 20px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.4);
+  background-color: white;
+  margin-top: 75px;
+  margin-left: 250px;
+}
+
+#pict-1 {
+   width: 256px;
+   margin-left: 385px;
+   margin-top: 100px;
+   border-radius: 50%;
+}
+
+#nama {
+  margin-top: 25px;
+  margin-left: 235px;
+  font-weight: bold;
+}
+
+#jobs {
+  margin-left: 430px;
+  margin-bottom: 25px;
+}
+
+#btn-learn-more {
+  text-decoration: none;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 470px;
+}
+
+#skill {
+  margin-top: 215px;
+  margin-left: 100px;
+}
+
+.container {
+  width: 50%;
+  background-color: #ddd;
+}
+
+.html {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #04AA6D;}
