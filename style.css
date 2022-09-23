@@ -60,3 +60,46 @@ body {
   width: 448px;
   float: right;
 }
+
+#skill {
+  margin-top: 230px;
+  text-align: center;
+}
+
+#skills {
+  margin-left: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+  
+.container {
+  width: 200px;
+  background-color: #ddd;
+}
+
+.html {
+  text-align: right;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  color: white;
+}
+
+.html {width: 30%; background-color: #04AA6D;}
+
+.css {
+  text-align: right;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: white;
+}
+
+.css {width: 27%; background-color: #04AA6D;}
+
+.js {
+  text-align: right;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: white;
+}
+
+.js {width: 40%; background-color: #04AA6D;}
