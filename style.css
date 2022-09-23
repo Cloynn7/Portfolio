@@ -10,11 +10,12 @@ body {
 
 .card {
   width: 1000px;
-  height: 2000px;
+  height: 1600px;
   border-radius: 20px;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.4);
   background-color: white;
   margin-top: 75px;
+  margin-bottom: 75px;
   margin-left: 250px;
 }
 
@@ -67,13 +68,14 @@ body {
 }
 
 #skills {
-  margin-left: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
 .container {
-  width: 200px;
+  width: 100%;
   background-color: #ddd;
 }
 
@@ -111,4 +113,47 @@ body {
 .js {
   width: 40%;
   background-color: #04aa6d;
+}
+
+.footer {
+  text-align: center;
+}
+
+#sosmed {
+  display: inline-flex;
+}
+
+#github {
+  transition: transform .3s;
+}
+
+#github:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+#discord {
+  transition: transform .3s;
+}
+
+#discord:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+#wa {
+  transition: transform .3s;
+}
+
+#wa:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+.social {
+  font-size: 30px;
+  padding: 10px;
 }
