@@ -15,8 +15,8 @@
   
     #nama {
     margin-top: 3%;
-    margin-left: 11%;
-    font-weight: bold;
+    text-align: center;
+    margin-left: auto;
     font-size: 20px;
     }
   
@@ -48,6 +48,7 @@
     }
   
     #skill {
+    font-size: 20px;
     margin-top: 10%;
     }
   
@@ -59,7 +60,8 @@
 
   @media (max-width: 360px) {
     .card {
-        width: 330px;
+    width: 330px;
+    height: 800px;
     }
 
     #nama {
@@ -69,8 +71,14 @@
     }
 
     #jobs {
-    font-size: 10px;
+    font-size: 13px;
     margin-left: auto;
     text-align: center;
     }
+
+    #learn-more h2 {
+    font-size: 15px;
+    }
+
+    #learn-more p {x`
   }
