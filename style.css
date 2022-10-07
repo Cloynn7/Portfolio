@@ -22,19 +22,19 @@ body {
 
 #pict-1 {
   width: 256px;
-  margin-left: 385px;
+  margin-left: 39%;
   margin-top: 100px;
   border-radius: 50%;
 }
 
 #nama {
   margin-top: 25px;
-  margin-left: 235px;
+  margin-left: 27%;
   font-weight: bold;
 }
 
 #jobs {
-  margin-left: 430px;
+  margin-left: 42%;
   margin-bottom: 25px;
 }
 
@@ -45,7 +45,7 @@ body {
   padding: 10px;
   cursor: pointer;
   text-align: center;
-  margin-left: 470px;
+  margin-left: 46%;
 }
 
 #learn-more h2 {
@@ -64,13 +64,15 @@ body {
 }
 
 #skill {
-  margin-top: 30px;
+  margin-top: 20%;
   text-align: center;
 }
 
-#skills {
-  margin-left: 50px;
-  margin-right: 50px;
+#skill-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .footer {
@@ -81,7 +83,6 @@ body {
 
 #sosmed {
   display: inline-flex;
-  margin: 50px;
 }
 
 #github {
