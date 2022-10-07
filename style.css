@@ -11,7 +11,7 @@ body {
 }
 
 .card {
-  width: 1000px;
+  width: 1200px;
   height: 1600px;
   border-radius: 20px;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.4);
@@ -64,65 +64,24 @@ body {
 }
 
 #skill {
-  margin-top: 230px;
+  margin-top: 30px;
   text-align: center;
 }
 
 #skills {
   margin-left: 50px;
   margin-right: 50px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.container {
-  width: 100%;
-  background-color: #ddd;
-}
-
-.html {
-  text-align: right;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  color: white;
-}
-
-.html {
-  width: 30%;
-  background-color: #04aa6d;
-}
-
-.css {
-  text-align: right;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  color: white;
-}
-
-.css {
-  width: 27%;
-  background-color: #04aa6d;
-}
-
-.js {
-  text-align: right;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  color: white;
-}
-
-.js {
-  width: 40%;
-  background-color: #04aa6d;
 }
 
 .footer {
   margin-top: 10%;
+  margin-bottom: 100px;
   text-align: center;
 }
 
 #sosmed {
   display: inline-flex;
+  margin: 50px;
 }
 
 #github {
@@ -165,7 +124,7 @@ body {
 @media (max-width: 550px) {
 
   .card {
-  width: 300px;
+  width: 400px;
   height: 900px;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.4);
   background-color: white;
@@ -182,15 +141,15 @@ body {
   }
 
   #nama {
-  margin-top: 5px;
+  margin-top: 3%;
   margin-left: 11%;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 20px;
   }
 
   #jobs{
-  font-size: 10px;
-  margin-left: 29%;
+  font-size: 15px;
+  margin-left: 26%;
   margin-bottom: 5%;
   }
 
@@ -199,46 +158,24 @@ body {
   }
 
   #learn-more h2 {
-  font-size: 15px;
-  margin-top: 20%;
+  font-size: 20px;
+  margin-top: 15%;
   margin-left: 3%;
   }
   
   #learn-more p {
-  font-size: 10px;
+  font-size: 15px;
   margin-left: 5%;
   margin-right: 2%;
   padding-top: 6%;
   }
   
   #pict-2 {
-  width: 45%;
-  font-size: 15px;
+  width: 40%;
   }
 
-  #skill {
-  font-size: 15px;
-  margin-top: 50%;
-  text-align: center;
-  }
-
-  #skills {
-  margin: 25% 15%;
-  margin-bottom: 15%;
-  }
-
-  .html {
-    padding-top: 1%;
-    padding-bottom: 1%;
-  }
-
-  .css {
-    padding-top: 1%;
-    padding-bottom: 1%;
-  }
-
-  .js {
-    padding-top: 1%;
-    padding-bottom: 1%;
+  #skill-img {
+    margin-left: 15%;
+    width: 70%;
   }
 }
