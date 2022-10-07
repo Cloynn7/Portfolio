@@ -22,9 +22,8 @@ body {
 
 #pict-1 {
   width: 256px;
-  margin: 100px auto 0;
-  /* margin-left: 39%;
-  margin-top: 100px; */
+  margin-left: 39%;
+  margin-top: 100px;
   border-radius: 50%;
 }
 
