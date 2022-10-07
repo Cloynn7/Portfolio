@@ -8,7 +8,6 @@
   
     #pict-1 {
     width: 30%;
-    margin-left: 35%;
     margin-bottom: 3%;
     margin-top: 10%;
     }
@@ -80,5 +79,11 @@
     font-size: 15px;
     }
 
-    #learn-more p {x`
+    #learn-more p {
+        font-size: 13px;
+    }
+
+    #skill {
+    font-size: 15px;
+    }
   }
